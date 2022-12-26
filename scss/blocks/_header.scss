@@ -1,0 +1,25 @@
+.header {
+  background: $bg-tirth-color;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: $text-align;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+.sitenav {
+  display: flex;
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 4rem;
+  }
+  &__link {
+    color: $bg_color;
+    font-weight: $body-font-weight;
+    font-size: 1.4rem;
+    line-height:$line-hight;
+  }
+}

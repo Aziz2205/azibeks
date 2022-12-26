@@ -1,0 +1,40 @@
+.footer {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: $text-align;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+.footernav {
+  display: flex;
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 4rem;
+  }
+  &__link {
+    color: $bg_color;
+    font-weight:$body-font-weight;
+    font-size: 1.4rem;
+    line-height: $line-hight;
+  }
+}
+.first {
+  background: $bg-tirth-color;
+}
+.second {
+  background: #111111;
+  height: 5rem;
+}
+
+.second__text {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-weight: $body-font-weight;
+  font-size: $font-size;
+  line-height: $body-line-height;
+  color: $color-two;
+}
